@@ -1,0 +1,212 @@
+body {
+    background-color: #ffe6f0;
+    color: #5c1835;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #e83e8c;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffd1e3 !important;
+}
+
+.hero {
+    background-color: #ffb3d1;
+    padding: 100px 0;
+}
+
+.welcome-text {
+    color: #a61e5c;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero h1 {
+    color: #a61e5c;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero p {
+    line-height: 1.7;
+}
+
+.pink-btn {
+    background-color: #e83e8c;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.pink-btn:hover {
+    background-color: #c21868;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid white;
+    box-shadow: 0 8px 25px rgba(232, 62, 140, 0.4);
+    transition: 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(194, 24, 104, 0.45);
+}
+
+.section-title {
+    color: #c21868;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.card {
+    background-color: #fff0f6;
+    border: 2px solid #ffb3d1;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(232, 62, 140, 0.15);
+}
+
+.about-card {
+    line-height: 1.8;
+}
+
+.education-section {
+    background-color: #ffcce0;
+}
+
+.education-card {
+    line-height: 1.7;
+}
+
+.course {
+    color: #e83e8c;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hobby-card {
+    transition: 0.3s;
+}
+
+.hobby-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(232, 62, 140, 0.25);
+}
+
+.hobby-icon {
+    font-size: 50px;
+}
+
+.badge {
+    background-color: #e83e8c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.facts-section {
+    background-color: #ffb3d1;
+}
+
+.facts-section h5 {
+    color: #c21868;
+    font-weight: bold;
+}
+
+.contact-section {
+    background-color: #ffe6f0;
+}
+
+.contact-card {
+    background-color: #fff0f6;
+    border: 2px solid #ffb3d1;
+    padding: 35px 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(232, 62, 140, 0.15);
+    height: 100%;
+    transition: 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(232, 62, 140, 0.25);
+}
+
+.contact-card h5 {
+    color: #c21868;
+    font-weight: bold;
+}
+
+.contact-card p {
+    margin-bottom: 0;
+    word-break: break-word;
+}
+
+.contact-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #c21868;
+    color: white;
+    padding: 30px 0;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 70px 0;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .profile-picture {
+        width: 300px;
+        height: 300px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .card {
+        padding: 30px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .profile-picture {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+}
